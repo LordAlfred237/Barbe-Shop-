@@ -12,9 +12,10 @@ body{
 }
 header{
     width: 100%;
-    height: 100%;
+    height: 100px;
     background-color: var(--bg-color);
-    padding: 10px ;
+    padding: 0 ;
+    position: relative;
 }
 .nav.container{
     display: flex;
@@ -64,6 +65,8 @@ li{
   object-position: center;
   justify-items: center;
   font-size: larger;
+  width: 100%;
+     height: 100vh;
 }
 #content-1{
     width: 500px;
@@ -72,7 +75,7 @@ li{
 .page-content-service{
     background-color: var(--main-color);
      width: 100%;
-     height: 1000px;
+     height: 100vh;
     
 
 }.content-2{
@@ -81,7 +84,7 @@ li{
   margin: 20px;              /* Space outside the box */
   background-color: var(--bg-color); /* Fill color inside box */
   width: 400px;
-  height: 100vh;              /* Optional fixed width */
+  height: 50vh;              /* Optional fixed width */
   position: relative; /* needed for animation movement */
   animation: moveBox 4s infinite alternate;
   justify-items: center;
@@ -100,5 +103,11 @@ li{
 .page-content-3{
       background-color:var(--text-color);
      width: 100%;
-     height: 1000px;
+     height: 100vh;
+}
+.box2{
+    align-content: center;
+    font-size: 40px;
+    margin: 0;
+    display: inline;
 }
