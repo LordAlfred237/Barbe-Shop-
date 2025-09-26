@@ -34,4 +34,17 @@ form.addEventListener("submit", function (event) {
 
     // Clear the form
     form.reset();
+//     document.getElementById("contactForm").addEventListener("submit", function(e) {
+//   e.preventDefault(); // stop page reload
+
+//   let name = document.getElementById("name").value;
+//   let email = document.getElementById("email").value;
+//   let message = document.getElementById("message").value;
+
+//   let subject = "New message from " + name;
+//   let body = "Name: " + name + "%0AEmail: " + email + "%0A%0A" + message;
+
+//   // Replace with your email
+//   window.location.href = "mailto:lordalfred055@gmail.com?subject=" + subject + "&body=" + body;
+// });
 });
